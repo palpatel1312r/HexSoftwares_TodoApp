@@ -1,0 +1,106 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 360px;
+  height: 600px;
+  background: rgba(255, 255, 255, 0.15);
+  /* backdrop-filter: blur(15px); */
+  border-radius: 25px;
+  padding: 20px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+button {
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  background: #0b56f9;
+  color: white;
+  font-weight: bold ;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  background: white;
+  border-radius: 15px;
+  padding: 12px;
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+li span {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.status {
+  font-size: 12px;
+  color: green;
+  font-weight: bold;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.done-btn {
+  background: #28a745;
+}
+
+.cancel-btn {
+    background: #f0172c;  
+}
